@@ -1,0 +1,12 @@
+<template name="layoutMain">
+  <div class="container-fluid" id="main">
+    <div class="row">
+      <div class="col-sm-offset-3 col-sm-6">
+        {{> header}}
+        <div class="row content">
+          {{> yield}}
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
