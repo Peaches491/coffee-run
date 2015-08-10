@@ -12,7 +12,7 @@ Router.route('/', {
 
   // Render the 'example' template.
   action: function () {
-    this.render('home', {
+    this.render('order', {
       // Pass example documents into the template.
       data: function () {
         return {
